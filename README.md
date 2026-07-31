@@ -62,7 +62,7 @@ gcc -v
 Compile using GCC:
 
 ```bash
-gcc -m32 -O0 -fno-omit-frame-pointer printf.c -o printf
+gcc -m32 -O0 -fno-omit-frame-pointer myPrintf.c -o myPrintf
 ```
 
 ### Compiler flags
@@ -80,7 +80,7 @@ gcc -m32 -O0 -fno-omit-frame-pointer printf.c -o printf
 Execute the program:
 
 ```bash
-./printf
+./myPrintf
 ```
 
 ---
