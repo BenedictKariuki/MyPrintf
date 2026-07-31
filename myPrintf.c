@@ -137,7 +137,7 @@ int my_printf(const char* fmt, ...){
 
 int main(){
 	
-	my_printf("Name: %s Age: %d Grade: %c\n", "Benedict", -8, 'A');
+	my_printf("Name: %s Age: %d Grade: %c\n", "Benedict", 20, 'A');
 
 	return 0;
 }
