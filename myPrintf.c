@@ -71,7 +71,7 @@ void itoa(unsigned char* digits, int i){
 	}
 }
 
-/* macro to read the first address for args passed in 32-bit systems */
+/* macro to read the first address for args passed in 32-bit systems. Every push is 4 bytes. */
 #ifndef x86ARGS
 #define x86ARGS
 #define Args(arg) \
